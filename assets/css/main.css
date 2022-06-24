@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, /*menu,*/ nav, output, ruby,
+footer, header, hgroup, /*menu, nav,*/ output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -25,10 +25,8 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-img { max-width: 100%; height: auto; }
-
 article, aside, details, figcaption, figure,
-footer, header, hgroup, /*menu*/, nav, section {
+footer, header, hgroup, /*menu, nav,*/ section {
 	display: block;}
 
 body {
@@ -2082,7 +2080,7 @@ input, select, textarea {
 			line-height: 1;
 		}
 
-/* Nav */
+/* Nav 
 
 	#nav {
 		margin: 2.5em 0 0 0;
@@ -2171,6 +2169,7 @@ input, select, textarea {
 				border-bottom: solid 10px #252122;
 				border-bottom-color: rgba(34, 30, 31, 0.98);
 			}
+*/
 
 /* Banner */
 
@@ -2452,12 +2451,12 @@ input, select, textarea {
 
 	}
 
-/* Medium */
+/* Medium 
 
 	#navPanel, #titleBar {
 		display: none;
 	}
-
+*/
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
@@ -2487,11 +2486,13 @@ input, select, textarea {
 				padding: 3.5em 0 3em 0;
 			}
 
-		/* Nav */
+		/* Nav 
 
 			#nav {
 				display: none;
 			}
+		*/
+
 
 		/* Intro */
 
@@ -2539,7 +2540,7 @@ input, select, textarea {
 				display: block;
 			}
 
-		/* Nav */
+		/* Nav 
 
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
@@ -2703,6 +2704,9 @@ input, select, textarea {
 			}
 
 	}
+*/
+
+
 
 /* Small */
 
